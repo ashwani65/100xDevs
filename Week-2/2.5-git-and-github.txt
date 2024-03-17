@@ -1,0 +1,26 @@
+clone: bring a repo hosted somewhere like github or bitbucket
+add: 
+commit:
+
+push: send a change to another repositoy (may require permission)
+pull: grab a change from a repositoy
+status: to know the status
+git remote -v (to check if there is a configured remote repo)
+
+SSH 
+ssh-keygen -t rsa -b 4096 -C "email"
+
+![Git Workflow](..images/git-workflow.png "Git Workflow")
+
+Git commands to resolve conflicts
+● git log --merge: produce the list of commits that are causing the
+conflict.
+● git diff: Identify the differences between the states repositories or files.
+● git checkout: Used to undo the changes made to the file, or for
+changing branches.
+● git reset --mixed: Used to undo changes to the working directory and
+staging area.
+● git merge --abort: Helps in exiting the merge process and returning
+back to the state before the merging began.
+● git reset: Used at the time of merge conflict to reset the conflicted files
+to their original state.
